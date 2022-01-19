@@ -1,9 +1,9 @@
 # TWMac-TT-OKA - Official implementation
 <img src=".\illustration\flow.png" alt="image" style="zoom:33%;" />
 
-Effective Tensor Completion via Element-wise Weighted Low-rank Tensor Train with Overlapping Ket Augmentation
+## Effective Tensor Completion via Element-wise Weighted Low-rank Tensor Train with Overlapping Ket Augmentation
 
-Yang Zhang, Yao Wang,Zhi Han, Xi’ai Chen, Yandong Tang
+Yang Zhang, Yao Wang, Zhi Han, Xi’ai Chen, Yandong Tang
 
 [Paper](https://arxiv.org/abs/2109.05736)
 
