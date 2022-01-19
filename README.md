@@ -18,8 +18,10 @@ MATLAB2021a with
 
 The code was tested on Windows 10 with Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz   3.00 GHz.
 
+### Test
 
-
+- Run 'Demo_91x111x3_Lena.m' for a randomly cropped image Lena of size [91, 111, 3] using TWMac-TT-OKA.
+- Run 'TestOKA' for checking the Overlapping Ket Augmentation process.
 
 
 
