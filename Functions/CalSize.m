@@ -1,17 +1,17 @@
-function [sub_size] = CalSize (msize)
+function [num_overlap] = CalSize (msize)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CalSize: 
-%   - Calculate the sub-block size (According to Eq. (17) in the paper)
+%   - Calculate the overlapping elements (According to Eq. (17) in the paper)
 % Input:   
 %   - The size of a real-world image. 
 % Output:  
-%   - The sub-block size after overlapping.
+%   - The number of overlapping elements in the division.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-sub_size = (msize+1)/2;
+num_overlap = (msize+1)/2;
 if msize == 3
-    sub_size = 2;
-elseif  sub_size == fix(sub_size)
-    sub_size = sub_size + 1;
+    num_overlap = 2;
+elseif num_overlap  == fix(num_overlap)
+    num_overlap = num_overlap + 1;
 else  
-    sub_size = ceil(sub_size);
+    num_overlap = ceil(num_overlap);
 end
