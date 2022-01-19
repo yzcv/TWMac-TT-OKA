@@ -24,7 +24,7 @@ opts.Y0 = Y0;
 opts.maxit = maxiter;
 opts.M0 =M;
 % Start Time measure
-t0=tic;
+t0 = tic;
 [M,relerr] = GlobalTMP(data,known,Nway,opts,tol,ranktube,Wp);
 % Stop Time measure
 timeTC = toc(t0);

@@ -5,7 +5,7 @@ function [Nway, x_size, y_size, x_start, y_start] = CalNway(imgsize)
 % Input: 
 %   - The size of a real-world image. 
 % Output: 
-%   -The dimension size of the generated tensor by OKA.
+%   - The dimension size of the generated tensor by OKA.
 %   - (x_size, y_size) and (x_start, y_start)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

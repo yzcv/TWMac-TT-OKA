@@ -3,7 +3,10 @@ function [xx,yy] = OKA(M,Nway,x_size,y_size,x_start,y_start)
 % OKA:
 %   - Overlapping Ket Augmentation (Algorithm 3).
 % Input:
-%   - The size of a real-world image.
+%   - M:    The third-order image.
+%   - Nway: The disired dimension size.
+%   - (x_size, y_size):     The sub-block size of each division.
+%   - (x_start, y_start):   The sub-block starting position.
 % Output:
 %   - The generated high-order tensor xx and
 %   - the corresponding location index yy

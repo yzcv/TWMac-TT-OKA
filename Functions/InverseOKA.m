@@ -16,7 +16,7 @@ for i1 = 1:Nway(1)
     for i2 = 1:Nway(2)
         for i3 = 1:Nway(3)
             if order == 4
-                temp=yy(i1,i2,i3);
+                temp = yy(i1,i2,i3);
                 M_val(temp,:) = M_val(temp,:)+reshape(xx(i1,i2,i3,:),[1,3]);
                 num(temp,:) = num(temp,:)+1;
                 continue;
@@ -24,7 +24,7 @@ for i1 = 1:Nway(1)
             
             for i4 = 1:Nway(4)
                 if order == 5
-                    temp=yy(i1,i2,i3,i4);
+                    temp = yy(i1,i2,i3,i4);
                     M_val(temp,:) = M_val(temp,:)+reshape(xx(i1,i2,i3,i4,:),[1,3]);
                     num(temp,:) = num(temp,:)+1;
                     continue;
@@ -32,7 +32,7 @@ for i1 = 1:Nway(1)
                 
                 for i5 = 1:Nway(5)
                     if order == 6
-                        temp=yy(i1,i2,i3,i4,i5);
+                        temp = yy(i1,i2,i3,i4,i5);
                         M_val(temp,:) = M_val(temp,:)+reshape(xx(i1,i2,i3,i4,i5,:),[1,3]);
                         num(temp,:) = num(temp,:)+1;
                         continue;
@@ -40,7 +40,7 @@ for i1 = 1:Nway(1)
                     
                     for i6 = 1:Nway(6)
                         if order == 7
-                            temp=yy(i1,i2,i3,i4,i5,i6);
+                            temp = yy(i1,i2,i3,i4,i5,i6);
                             M_val(temp,:) = M_val(temp,:)+reshape(xx(i1,i2,i3,i4,i5,i6,:),[1,3]);
                             num(temp,:) = num(temp,:)+1;
                             continue;
@@ -48,7 +48,7 @@ for i1 = 1:Nway(1)
                         
                         for i7 = 1:Nway(7)        % if eighth order
                             if order == 8
-                                temp=yy(i1,i2,i3,i4,i5,i6,i7);
+                                temp = yy(i1,i2,i3,i4,i5,i6,i7);
                                 M_val(temp,:) = M_val(temp,:)+reshape(xx(i1,i2,i3,i4,i5,i6,i7,:),[1,3]);
                                 num(temp,:) = num(temp,:)+1;
                                 continue;
@@ -56,7 +56,7 @@ for i1 = 1:Nway(1)
 
                             for i8 = 1:Nway(8)     % if nighth order
                                 if order == 9
-                                    temp=yy(i1,i2,i3,i4,i5,i6,i7,i8);
+                                    temp = yy(i1,i2,i3,i4,i5,i6,i7,i8);
                                     M_val(temp,:) = M_val(temp,:)+reshape(xx(i1,i2,i3,i4,i5,i6,i7,i8,:),[1,3]);
                                     num(temp,:) = num(temp,:)+1;
                                     continue;
@@ -64,7 +64,7 @@ for i1 = 1:Nway(1)
                                 
                                 for i9 = 1:Nway(9)   % if tenth order
                                     if order == 10
-                                        temp=yy(i1,i2,i3,i4,i5,i6,i7,i8,i9);
+                                        temp = yy(i1,i2,i3,i4,i5,i6,i7,i8,i9);
                                         M_val(temp,:) = M_val(temp,:)+reshape(xx(i1,i2,i3,i4,i5,i6,i7,i8,i9,:),[1,3]);
                                         num(temp,:) = num(temp,:)+1;
                                         continue;

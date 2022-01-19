@@ -6,6 +6,7 @@ function [U,V,W] = WMF(A,th,iter,chi,known)
 %   - A:     	Incomplete matrix.
 %   - th:       The threshold.
 %   - iter:     The maximum iteration.
+%   - chi:      The rank.
 %   - known:    The location indication.
 % Output:
 %   - U:        The estimated U.
@@ -25,7 +26,7 @@ err_r = abs(U*V'-A);
 err_r = err_r / max(err_r(:));
 W = sqrt(exp(-25*err_r));
 
-merr0=Inf;
+merr0 = Inf;
 err = W.*abs(U*V'-A);
 merr = sum(err(:))/(rowA*colA);
 
@@ -34,7 +35,7 @@ while m<iter && abs(merr-merr0)>th
     % Update U
     for k = 1:rowA
         T = V'*diag(sparse(W(k,:)));
-        U(k,:)= (pinv(T*V)*T*A(k,:)')';
+        U(k,:) = (pinv(T*V)*T*A(k,:)')';
     end
     % Update V
     for k = 1:colA
@@ -45,7 +46,7 @@ while m<iter && abs(merr-merr0)>th
     err_r = err_r / max(err_r(:));
     W = sqrt(exp(-25*err_r));
     W(known) = 1;
-    merr0=merr;
+    merr0 = merr;
     err = W.*abs(U*V'-A);
     merr = sum(err(:))/(rowA*colA);
     m = m+1;
