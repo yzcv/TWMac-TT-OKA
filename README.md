@@ -14,7 +14,7 @@ MATLAB2021a with
 
 - Parallel Computing Toolbox
 - Image Processing Toolbox
-- Statistic and Machine Learning toolbox
+- Statistic and Machine Learning Toolbox
 
 The code was tested on Windows 10 with Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz.
 
