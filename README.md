@@ -26,13 +26,13 @@ The code was tested on Windows 10 with Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz.
 
 ##### TMacTT-OKA (Only OKA)
 
-- Run Demo_256x256x3_Lena_TMacTT_OKA.m for Lena of size [256, 256, 3] with 90% elements missing.
-- Run Demo_256x256x3_Peppers_TMacTT_OKA.m for Peppers of size [256, 256, 3] with 90% elements missing.
+- Run [Demo_256x256x3_Lena_TMacTT_OKA.m](https://github.com/z625715875/TWMac-TT-OKA/blob/main/Demo_256x256x3_Lena_TMacTT_OKA.m) for Lena of size [256, 256, 3] with 90% elements missing.
+- Run [Demo_256x256x3_Peppers_TMacTT_OKA.m](https://github.com/z625715875/TWMac-TT-OKA/blob/main/Demo_256x256x3_Peppers_TMacTT_OKA.m) for Peppers of size [256, 256, 3] with 90% elements missing.
 
 ##### TWMacTT-KA (Only W)
 
-- Run Demo_256x256x3_Lena_TWMacTT_KA.m for Lena of size [256, 256, 3] with 90% elements missing.
-- Run Demo_256x256x3_Peppers_TWMacTT_KA.m for Lena of size [256, 256, 3] with 90% elements missing.
+- Run [Demo_256x256x3_Lena_TWMacTT_KA.m](https://github.com/z625715875/TWMac-TT-OKA/blob/main/Demo_256x256x3_Lena_TWMacTT_KA.m) for Lena of size [256, 256, 3] with 90% elements missing.
+- Run [Demo_256x256x3_Peppers_TWMacTT_KA.m](https://github.com/z625715875/TWMac-TT-OKA/blob/main/Demo_256x256x3_Peppers_TWMacTT_KA.m) for Peppers of size [256, 256, 3] with 90% elements missing.
 
 
 ##### TWMacTT-OKA (W+OKA) arbitrary size test (thanks to the proposed OKA scheme)
@@ -41,7 +41,10 @@ The code was tested on Windows 10 with Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz.
 
 
 
+##### TWMacTT-OKA (W+OKA)
 
+- Run Demo_256x256x3_Lena_TWMacTT_OKA.m  for Lena of size [256, 256, 3] with 90% elements missing.
+- Run Demo_256x256x3_Peppers_TWMacTT_OKA.m  for Peppers of size [256, 256, 3] with 90% elements missing.
 
 
 For other input images, please tune the hyper-parameter `thl` in the Demo script to obtain the best performance.
