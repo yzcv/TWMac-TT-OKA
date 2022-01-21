@@ -20,9 +20,31 @@ The code was tested on Windows 10 with Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz.
 
 ### Test
 
-- Run [Demo_91x111x3_Lena.m](https://github.com/z625715875/TWMac-TT-OKA/blob/main/Demo_91x111x3_Lena.m) for a randomly cropped image Lena of size [91, 111, 3] using TWMac-TT-OKA.
-- Run [TestOKA](https://github.com/z625715875/TWMac-TT-OKA/blob/main/TestOKA.m) for checking the Overlapping Ket Augmentation process.
+##### OKA quick test
 
+- Run [TestOKA.m](https://github.com/z625715875/TWMac-TT-OKA/blob/main/TestOKA.m) for checking the Overlapping Ket Augmentation procedure.
+
+##### TMacTT-OKA (Only OKA)
+
+- Run Demo_256x256x3_Lena_TMacTT_OKA.m for Lena of size [256, 256, 3] with 90% elements missing.
+- Run Demo_256x256x3_Peppers_TMacTT_OKA.m for Peppers of size [256, 256, 3] with 90% elements missing.
+
+##### TWMacTT-KA (Only W)
+
+- Run Demo_256x256x3_Lena_TWMacTT_KA.m for Lena of size [256, 256, 3] with 90% elements missing.
+- Run Demo_256x256x3_Peppers_TWMacTT_KA.m for Lena of size [256, 256, 3] with 90% elements missing.
+
+
+##### TWMacTT-OKA (W+OKA) arbitrary size test (thanks to the proposed OKA scheme)
+
+- Run [Demo_91x111x3_Lena.m](https://github.com/z625715875/TWMac-TT-OKA/blob/main/Demo_91x111x3_Lena.m) for a randomly cropped image Lena of size [91, 111, 3].
+
+
+
+
+
+
+For other input images, please tune the hyper-parameter `thl` in the Demo script to obtain the best performance.
 
 
 
