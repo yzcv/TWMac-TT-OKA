@@ -35,7 +35,7 @@ The code was tested on Windows 10 with Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz.
 - Run [Demo_256x256x3_Peppers_TWMacTT_KA.m](https://github.com/z625715875/TWMac-TT-OKA/blob/main/Demo_256x256x3_Peppers_TWMacTT_KA.m) for Peppers of size [256, 256, 3] with 90% elements missing.
 
 
-##### TWMacTT-OKA (W+OKA) arbitrary size test (thanks to the proposed OKA scheme)
+##### TWMacTT-OKA (W+OKA) - arbitrary size test (thanks to the proposed OKA scheme
 
 - Run [Demo_91x111x3_Lena.m](https://github.com/z625715875/TWMac-TT-OKA/blob/main/Demo_91x111x3_Lena.m) for a randomly cropped image Lena of size [91, 111, 3].
 
