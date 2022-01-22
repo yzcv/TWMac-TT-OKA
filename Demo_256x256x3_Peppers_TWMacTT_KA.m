@@ -26,9 +26,10 @@ Omega = zeros(Nway);
 Omega(Known) = 1;
 
 thl = [0.02]; 
+MaxIter = 321;
 
 % Main function for tensor completion
-[Tres,~] = TensorCompletion(X,Known,Omega,thl);  
+[Tres,~] = TensorCompletion(X,Known,Omega,thl,MaxIter);  
 
 %% 
 oriImg = uint8(I);

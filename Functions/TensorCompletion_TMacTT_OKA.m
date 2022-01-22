@@ -1,4 +1,4 @@
-function [Out,Xmiss] = TensorCompletion_TMacTT_OKA(XKnown,Omega,thl)
+function [Out,Xmiss] = TensorCompletion_TMacTT_OKA(X,Known,Omega,thl)
 %% Missing data preparation
 Nway = size(X); N = numel(Nway);
 Xkn = X(Known);      % Known elements
