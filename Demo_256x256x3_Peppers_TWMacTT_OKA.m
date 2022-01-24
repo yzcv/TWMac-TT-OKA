@@ -29,9 +29,9 @@ xOmega(Known0) = 1;
 [Known,~,~] = find(Omega(:));
 
 % An important prameter to be adjusted
-thl = [0.02];                      
-
-[Tres,~] = TensorCompletion(X,Known,Omega,thl);  
+thl = [0.018];                      
+MaxIter = 500;
+[Tres,~] = TensorCompletion(X,Known,Omega,thl,MaxIter);
 X_out = InverseOKA(imgsize,Nway,Tres.MS,yy);
 recImg = uint8(X_out);
 imshow(recImg)
