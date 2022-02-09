@@ -53,7 +53,7 @@ The completion result of the cropped Lena of size 91×111×3 with missing rate 8
 
 #### Visual performance
 
-![demo91x111x3](.\illustration\demo91x111x3.png)
+<img src=".\illustration\demo91x111x3.png" alt="lena"  />
 
 #### Numeric metrics
 
