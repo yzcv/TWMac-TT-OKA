@@ -53,7 +53,7 @@ The completion result of the cropped Lena of size 91×111×3 with missing rate 8
 
 #### Visual performance
 
-<img src=".\illustration\demo91x111x3.png" alt="lena"  />
+<img src=".\illustration\demo91x111x3.png" alt="lena" style="zoom:75%;" />
 
 #### Numeric metrics
 
@@ -62,6 +62,6 @@ The completion result of the cropped Lena of size 91×111×3 with missing rate 8
 |FBCP  		|0.1345	|22.8181 |0.6847 |
 |SiLRTC		| 0.2833| 16.3785|0.5414 |
 |STDC  		|0.1941	|19.6644 |0.5286 |
-|TMac  		|0.0738 |28.0621 |0.9042 |
-|TMac-TT+OKA|0.0689 |28.6562 |0.9103 |
+|TMac  		|*0.0738* |*28.0621* |*0.9042* |
+|TMac-TT+OKA|**0.0689** |**28.6562** |**0.9103** |
 
