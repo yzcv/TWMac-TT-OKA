@@ -8,7 +8,7 @@ Yang Zhang, Yao Wang, Zhi Han, Xi’ai Chen, Yandong Tang
 [[Paper Link]](https://arxiv.org/abs/2109.05736)
 
 
-## Environment Requirements
+## 1. Environment Requirements
 
 MATLAB2021a with 
 
@@ -18,7 +18,7 @@ MATLAB2021a with
 
 The code was tested on Windows 10 with Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz.
 
-## Test
+## 2. Test
 
 ##### OKA quick test
 
@@ -46,10 +46,22 @@ The code was tested on Windows 10 with Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz.
 - Run [Demo_256x256x3_Lena_TWMacTT_OKA.m](https://github.com/yzcv/TWMac-TT-OKA/blob/main/Demo_256x256x3_Lena_TWMacTT_OKA.m)  for Lena of size [256, 256, 3] with 90% elements missing.
 - Run [Demo_256x256x3_Peppers_TWMacTT_OKA.m](https://github.com/yzcv/TWMac-TT-OKA/blob/main/Demo_256x256x3_Peppers_TWMacTT_OKA.m)  for Peppers of size [256, 256, 3] with 90% elements missing.
 
-
 For other input images, please tune the hyper-parameter `thl` in the Demo script to obtain the best performance.
 
+## 3. Representative Result 
+The completion result of the cropped Lena of size 91×111×3 with missing rate 80% is shown as follows.
 
+#### Visual performance
 
+![demo91x111x3](E:\release_codes\TWMac-TT-OKA\illustration\demo91x111x3.png)
 
+#### Numeric metrics
+
+| Algorithms| RSE  	| PSNR   | SSIM  |
+| ---- 		| ---- 	| ----   | ----  |
+|FBCP  		|0.1345	|22.8181 |0.6847 |
+|SiLRTC		| 0.2833| 16.3785|0.5414 |
+|STDC  		|0.1941	|19.6644 |0.5286 |
+|TMac  		|0.0738 |28.0621 |0.9042 |
+|TMac-TT+OKA|0.0689 |28.6562 |0.9103 |
 
