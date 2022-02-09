@@ -53,7 +53,7 @@ The completion result of the cropped Lena of size 91×111×3 with missing rate 8
 
 #### Visual performance
 
-![demo91x111x3](E:\release_codes\TWMac-TT-OKA\illustration\demo91x111x3.png)
+![demo91x111x3](\illustration\demo91x111x3.png)
 
 #### Numeric metrics
 
